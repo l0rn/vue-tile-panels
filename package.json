@@ -1,0 +1,48 @@
+{
+  "name": "vue-tile-panels",
+  "version": "0.0.1alpha",
+  "description": "Vue2 Component for tilable and resizable panels",
+  "author": "Jonatan Zint <j.zint@frykk.de>",
+  "main": "dist/index.js",
+  "jsnext:main": "src/index.js",
+  "scripts": {
+    "build": "rm -rf dist && NODE_ENV=production webpack && webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/l0rn/vue-tile-panels.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/l0rn/vue-tile-panels/issues"
+  },
+  "homepage": "https://github.com/mauricius/vue-draggable-resizable",
+  "keywords": [
+    "vue",
+    "component",
+    "resizable",
+    "tiles",
+    "tiling"
+  ],
+  "peerDependencies": {
+    "vue": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.30.1",
+    "pug-html-loader": "^1.1.5",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "uglifyjs-webpack-plugin": "^1.1.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.5.1"
+  }
+}

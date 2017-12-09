@@ -1,0 +1,6 @@
+.tile-vertical
+  .tv-panel.tv-left(:style="{ width: styleWidth }", ref="leftPanel")
+    slot(name="left")
+    .tv-resizer(@mousedown="startResize")
+  .tv-panel.tv-right
+    slot(name="right")

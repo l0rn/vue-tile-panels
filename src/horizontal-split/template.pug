@@ -1,0 +1,6 @@
+.tile-horizontal
+  .th-panel.th-top(:style="{ height: styleHeight }", ref="topPanel")
+    slot(name="top")
+    .th-resizer(@mousedown="startResize")
+  .th-panel.th-bottom
+    slot(name="bottom")

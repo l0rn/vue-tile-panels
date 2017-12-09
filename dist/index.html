@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.9/dist/vue.js" type="text/javascript"></script>
+    <style>
+        body,html {
+            margin: 0;
+            padding: 0;
+            height: 100%
+        }
+        #app {
+            height: 100%;
+            width: 100%;
+        }
+        .box {
+            height: 100%;
+            width: 100%;
+            display: flex;
+        }
+        .green-box {
+            background: green;
+        }
+        .red-box {
+            background: darkred;
+        }
+        .blue-box {
+            background: darkblue;
+        }
+    </style>
+<link href="vue2-tile-panels.css" rel="stylesheet"><script type="text/javascript" src="vue2-tile-panels.js"></script></head>
+<body>
+    <div id="app">
+        <tile-frame>
+            <vertical-split>
+                <horizontal-split slot="left">
+                    <div class="box red-box" slot="top"></div>
+                    <div class="box blue-box" slot="bottom">
+                        <vertical-split>
+
+                        </vertical-split>
+                    </div>
+                </horizontal-split>
+                <div class="box green-box" slot="right"></div>
+            </vertical-split>
+        </tile-frame>
+    </div>
+    <script>
+        Vue.use(VueTilePanels)
+        new Vue({
+          el: '#app',
+        })
+    </script>
+</body>
+</html>
