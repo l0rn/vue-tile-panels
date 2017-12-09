@@ -3,7 +3,7 @@
   "version": "0.0.1alpha",
   "description": "Vue2 Component for tilable and resizable panels",
   "author": "Jonatan Zint <j.zint@frykk.de>",
-  "main": "dist/index.js",
+  "main": "dist/vue2-tile-panels.js",
   "jsnext:main": "src/index.js",
   "scripts": {
     "build": "rm -rf dist && NODE_ENV=production webpack && webpack"
