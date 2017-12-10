@@ -15,7 +15,7 @@ For now I just going to add a very basic example:
         <script src="https://cdn.jsdelivr.net/npm/vue@2.5.9/dist/vue.js" type="text/javascript"></script>
         <script src="vue2-tile-panels.js" type="text/javascript"></script>
         <link href="vue2-tile-panels.css" rel="stylesheet" type="text/css">
-        <!--- styles truncated --->
+        <!-- styles truncated -->
     </head>
     <body>
         <div id="app">
