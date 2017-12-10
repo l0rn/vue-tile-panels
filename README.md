@@ -4,6 +4,8 @@
 
 With this little library you can easily create resizable tiled panels in your web application. It should be useful to resemble the behaviour of many desktop applications where you can attach and resize panels containing toolbars, file explorers or something like that.
 
+There is also a small [Demo](https://l0rn.github.io/vue-tile-panels/)
+
 ## How do I use it?
 
 For now I just going to add a very basic example:
